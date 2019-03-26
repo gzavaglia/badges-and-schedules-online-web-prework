@@ -9,5 +9,6 @@ def batch_badge_creator
   speakers.each do |name|
   phrase = "Hello, my name is #{name}."
   return phrase
+  end 
 end 
     
