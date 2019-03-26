@@ -9,5 +9,9 @@ def batch_badge_creator(array)
   speakers = []
   array.each{|element| speakers << "Hello, my name is #{element}."}
   return speakers
-  end 
+end
+
+def assign_rooms
+  
+end 
     
