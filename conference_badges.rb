@@ -18,8 +18,8 @@ def assign_rooms(array)
   return rooms
 end 
 
-def printer
-puts badge_maker(name)
+def printer(array)
+puts badge_maker(array)
 puts assign_rooms(array)
 end 
     
