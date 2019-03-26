@@ -13,6 +13,7 @@ end
 
 def assign_rooms(array)
   rooms = *(1..7)
+  all = array + rooms 
   
 end 
     
