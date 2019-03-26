@@ -4,9 +4,9 @@ def badge_maker(name)
   return phrase
 end 
 
-def batch_badge_creator(speakers)
+def batch_badge_creator(array)
   #speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  speakers.each do |name|
+  array.each do |name|
   phrase = "Hello, my name is #{name}."
   return phrase
   end 
