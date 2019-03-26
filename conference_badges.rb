@@ -11,5 +11,4 @@ def batch_badge_creator(array)
   array.each{|element| speakers << phrase}
   return speakers
   end 
-end 
     
