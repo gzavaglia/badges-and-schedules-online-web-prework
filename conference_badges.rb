@@ -24,5 +24,5 @@ def printer(array)
     puts person
   end
 end 
-end 
+ 
     
