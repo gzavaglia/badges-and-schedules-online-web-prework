@@ -20,8 +20,12 @@ end
 
 def printer(array)
   speakers = batch_badge_creator(array)
+  rooms = assign_rooms(array)
   speakers.each do |person|
     puts person
+  end
+  rooms.each do |room|
+    puts room
   end
 end 
  
